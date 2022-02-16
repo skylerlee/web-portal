@@ -12,5 +12,8 @@
     "url": "git+https://github.com/skylerlee/web-portal.git"
   },
   "author": "skylerlee",
+  "dependencies": {
+    "koa": "^2.13.0"
+  },
   "license": "MIT"
 }
