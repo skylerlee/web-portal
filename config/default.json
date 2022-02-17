@@ -2,8 +2,7 @@
   "base": {
     "target": "",
     "changeOrigin": true,
-    "autoRewrite": true,
-    "protocolRewrite": "http"
+    "autoRewrite": true
   },
   "local": {
     "port": 443,
