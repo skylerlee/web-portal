@@ -7,7 +7,7 @@ const lib = require('./lib');
 function mapFiles(conf) {
   const keys = Object.keys(conf);
   return keys.reduce((prev, key) => {
-    const val = prev[key];
+    const val = conf[key];
     if (typeof val === 'string') {
       prev[key] = fs.readFileSync(val);
     }
