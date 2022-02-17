@@ -4,5 +4,9 @@
     "changeOrigin": true,
     "autoRewrite": true,
     "protocolRewrite": "http"
+  },
+  "local": {
+    "port": 443,
+    "ssl": {}
   }
 }
